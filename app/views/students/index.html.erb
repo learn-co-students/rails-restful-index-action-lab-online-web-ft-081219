@@ -1,0 +1,6 @@
+
+<ol>
+    <h2><% @students.all.each do |s| %></h2>
+        <li> <%= s.first_name + " " + s.last_name %></li>
+    <% end %>
+</ol>
